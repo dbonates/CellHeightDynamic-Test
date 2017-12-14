@@ -91,7 +91,6 @@ public class NiceCell: UITableViewCell {
     }
     
     func setupBanner() {
-        guard let iFile = Bundle.main.path(forResource: "aperture", ofType: "jpg") else { return }
         
         guard let img = UIImage(named: "aperture.jpg") else { return }
         
